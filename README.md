@@ -2,6 +2,8 @@
 
 Welcome to the repository for the Fyle Assignment! This project showcases our services, projects, and growth in a visually appealing and user-friendly manner.
 
+#### This web page is hosted [here!](https://lokesh0408.github.io/Fyle_Assignment.github.io/)
+
 ## Table of Contents
 
 - [Introduction](#introduction)
