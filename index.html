@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DigitalSpark</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="full-width-bg">
+      <hr class="horizontal-line" />
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-6 container-1">
+          <h2>AWARD WINNING</h2>
+          <h1 class="text-red">DIGITAL MARKETING AGENCY</h1>
+          <p class="limited-width">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
+            doloribus officia placeat perferendis provident! Ut ab corporis.
+          </p>
+          <br />
+          <button
+            id="contactBtn"
+            class="btn btn-danger"
+            data-toggle="modal"
+            data-target="#contactModal"
+          >
+            Contact Us
+          </button>
+        </div>
+        <div class="col-md-6">
+          <img src="images/image_1.png" alt="Big Image" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Us Modal -->
+    <div
+      class="modal fade"
+      id="contactModal"
+      tabindex="-1"
+      aria-labelledby="contactModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="contactModalLabel">Talk to us</h3>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form
+              id="contactForm"
+              action="https://getform.io/f/qalodjzb"
+              method="POST"
+            >
+              <div class="form-group">
+                <label for="email"
+                  >Work email<span class="required">*</span></label
+                >
+                <input
+                  type="email"
+                  class="form-control line-input"
+                  id="email"
+                  name="email"
+                  required
+                />
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="firstName"
+                    >First name<span class="required">*</span></label
+                  >
+                  <input
+                    type="text"
+                    class="form-control line-input"
+                    id="firstName"
+                    name="firstName"
+                    required
+                  />
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="lastName"
+                    >Last name<span class="required">*</span></label
+                  >
+                  <input
+                    type="text"
+                    class="form-control line-input"
+                    id="lastName"
+                    name="lastName"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="agreeCheck"
+                  required
+                />
+                <label class="form-check-label" for="agreeCheck">
+                  <span class="inline-block"
+                    >I agree to Fyle's terms and conditions, and provide
+                  </span>
+                  <br />
+                  <span class="inline-block"
+                    >consent to send me communication.</span
+                  >
+                </label>
+              </div>
+              <button
+                type="submit"
+                class="btn btn-danger btn-block mt-3 btn-contact-us"
+              >
+                Contact Us
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- what we do section -->
+
+    <section id="what-we-do">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="text-red">What We Do</h2>
+            <div class="service-info">
+              <h1>SERVICES PROVIDE <br />FOR YOU</h1>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptas possimus ad totam ipsum temporibus minus ut delectus
+                quisquam tempora rerum a quod aperiam.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="slider">
+              <div class="slide">
+                <img src="images/girl.png" alt="Image 1" />
+                <div class="hover-content">
+                  <img
+                    src="images/code_logo.png"
+                    alt="Code Logo"
+                    class="code-logo"
+                  />
+                  <h2>WEB DEVELOPMENT</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Odit quisquam voluptatibus corporis.
+                  </p>
+                  <button
+                    class="read-more-btn"
+                    onclick="window.open('https://fylehq.com', '_blank')"
+                  >
+                    READ MORE <span>&rarr;</span>
+                  </button>
+                </div>
+              </div>
+              <div class="slide">
+                <img
+                  src="https://source.unsplash.com/250x350/?marketing"
+                  alt="Image 2"
+                />
+                <div class="hover-content">
+                  <img
+                    src="images/code_logo.png"
+                    alt="Code Logo"
+                    class="code-logo"
+                  />
+                  <h2>WEB DEVELOPMENT</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Odit quisquam voluptatibus corporis.
+                  </p>
+                  <button
+                    class="read-more-btn"
+                    onclick="window.open('https://fylehq.com', '_blank')"
+                  >
+                    READ MORE <span>&rarr;</span>
+                  </button>
+                </div>
+              </div>
+              <div class="slide">
+                <img
+                  src="https://source.unsplash.com/250x350/?seo"
+                  alt="Image 3"
+                />
+                <div class="hover-content">
+                  <img
+                    src="images/code_logo.png"
+                    alt="Code Logo"
+                    class="code-logo"
+                  />
+                  <h2>WEB DEVELOPMENT</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Odit quisquam voluptatibus corporis.
+                  </p>
+                  <button
+                    class="read-more-btn"
+                    onclick="window.open('https://fylehq.com', '_blank')"
+                  >
+                    READ MORE <span>&rarr;</span>
+                  </button>
+                </div>
+              </div>
+              <div class="slide">
+                <img
+                  src="https://source.unsplash.com/250x350/?socialmedia"
+                  alt="Image 4"
+                />
+                <div class="hover-content">
+                  <img
+                    src="images/code_logo.png"
+                    alt="Code Logo"
+                    class="code-logo"
+                  />
+                  <h2>WEB DEVELOPMENT</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Odit quisquam voluptatibus corporis.
+                  </p>
+                  <button
+                    class="read-more-btn"
+                    onclick="window.open('https://fylehq.com', '_blank')"
+                  >
+                    READ MORE <span>&rarr;</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="slider-dots">
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Project section -->
+
+    <section id="our-project">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center our-project">
+            <h4 class="text-red">OUR PROJECT</h4>
+            <h1 class="text-black">WHY WE ARE BEST</h1>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-6">
+            <img
+              src="images/fyle_project_image.png"
+              alt="Project Image"
+              id="project-image"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-md-6">
+            <div
+              class="content-box"
+              id="content-box-1"
+              data-image="https://source.unsplash.com/417x309/?socialmedia"
+            >
+              <h4>Social Media</h4>
+              <p>
+                Connect with your audience and grow your brand presence with
+                effective social media marketing strategies.
+              </p>
+            </div>
+            <div
+              class="content-box"
+              id="content-box-3"
+              data-image="https://source.unsplash.com/417x309/?seo"
+            >
+              <h4>SEO</h4>
+              <p>
+                Enhance your online visibility and drive organic traffic to your
+                website with effective SEO strategies.
+              </p>
+            </div>
+
+            <div
+              class="content-box"
+              id="content-box-3"
+              data-image="images/cricket.jpg"
+            >
+              <h4>Cricket Batsman</h4>
+              <p>
+                Experience the thrill of the game as you follow your favorite
+                cricket teams and players in action.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- experts growth section -->
+
+    <section id="experts-growth">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h4 class="text-red">EXPERTS GROWTH</h4>
+            <h1 class="text-black">OUR COMPANY GROWTH</h1>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-3">
+            <div class="card">
+              <img src="images/heart.png" alt="Expert 1" class="img-fluid" />
+              <h1>199 <span>+</span></h1>
+              <h5>Satisfied Customers</h5>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="images/clock.png" alt="Expert 2" class="img-fluid" />
+              <h1>1591<span>+</span></h1>
+              <h5>Days of Operation</h5>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="images/Tick.png" alt="Expert 3" class="img-fluid" />
+              <h1>283 <span>+</span></h1>
+              <h5>Complete Project</h5>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="images/Reward.png" alt="Expert 4" class="img-fluid" />
+              <h1>75<span>+</span></h1>
+              <h5>Win Awards</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="full-width-bg">
+      <hr class="horizontal-line" />
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
